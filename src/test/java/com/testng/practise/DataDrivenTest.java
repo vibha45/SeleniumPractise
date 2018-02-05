@@ -17,7 +17,7 @@ public class DataDrivenTest {
        driver.manage().window().maximize();
        driver.get("https://reg.ebay.in/reg/PartialReg?_trksid=m37&rv4=1");
        driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
-       XLS_Read r=new XLS_Read("")
+       XLS_Read r=new XLS_Read("");
        
 	}
 
